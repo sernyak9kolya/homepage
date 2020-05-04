@@ -12,6 +12,27 @@
     <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicon-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="./assets/images/favicon-512x512.png">
     <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+    <style>
+      blockquote {
+        margin: 0;
+        background-color: #f4f4f4;
+        padding: 8px;
+        padding-left: 20px;
+        border-left: 5px solid #c0c0c0;
+      }
+
+      blockquote p::before {
+          content: '\201C';
+      }
+
+      blockquote p::after {
+          content: '\201D';
+      }
+
+      blockquote .author {
+        text-align: right;
+      }
+    </style>
   </head>
   <body>
     <main>
@@ -141,6 +162,13 @@
                 </section>
               </div>
               <div class="six wide column">
+                <section>
+                  <h3>Social networks</h3>
+                  <blockquote>
+                    <p>I don't understand it, or why you would do it. I’m too old for that already. &#x1f62c;</p>
+                    <div class="author"><cite>&mdash; Jürgen Klopp</cite> about social media</div>
+                  </blockquote>
+                </section>
                 <section>
                   <h3>Languages</h3>
                   <p class="tags"><span class="language">&#x1F1E9;&#x1F1EA; GERMAN</span> <span class="language">&#x1F1EC;&#x1F1E7; ENGLISH</span></p>
